@@ -20,3 +20,12 @@ cat > alts.py
 
 
 
+###### Drawbacks
+Drawbacks of No Physical Audio on GCP VM
+No microphone access -> speech input won’t work.
+You must type your queries instead.
+No speaker/audio output -> TTS output can still be generated as an audio file, but you can’t hear it in real time unless you download it to your local machine.
+Keyboard hotkey detection works in most VM terminals, but some GCP browser consoles may block certain key combos.
+Higher latency if LLM API is remote.
+
+Need to work on the drawbacks for better outcome.
